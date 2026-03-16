@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash Go</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Betania+Patmos&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--header-->
+    <header>
+        <nav class="head">
+             <div class="navlogo">
+                <img src="./images/logo.png" alt= "logo" >
+            </div>
+             <div class="navlinks">
+                <ul>
+                    <li> <a href="./index.html">Home</a></li>
+                    <li> <a href="./from.html">Login</a></li>
+                    <li> <a href="./apply.html">Apply To Work</a></li>
+                </ul>
+            </div>
+     </nav>
+    </header>
+    <!--section Boket-->
+    <header class="hero">
+    <video autoplay muted loop class="bg-video">
+        <source src="./video/15330792-uhd_3840_1620_24fps.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero-content">
+        <h1>Request a ride now or later</h1>
+        <p>Enter your trip information, hop on your selected transport, and make your way to your destination.</p>
+        </div>
+        <div class="select">
+            <label for="from"> From</label>
+            <input type="text" placeholder="enter your location now" id="from">
+            <br>
+            <br>
+            <label for="to">To</label>
+            <select name="to" id="from">
+                <option value="">choose your location</option>
+            <option value="to">فندق التحرير</option>
+            <option value="to"> نادى الجزيرة </option>
+            <option value="to"> الزمالك</option>
+             <option value="to">العاصمة الادارية </option>
+             <option value="to"> شارع فريد سميكة </option>
+             <option value="to"> الهرم </option>
+             <option value="to"> التجمع الخامس</option>
+                <option value="to"> الشروق 3</option>
+                <option value="to"> المطرية</option>
+                <option value="to"> عين شمس</option>
+                </select>
+      </div>
+    </header>
+
+</header>
+      
+<!--section suggestions-->
+
+    <h2 class="sugg">Suggestions</h2>
+    <div class="perant">
+        <div class="intercity child">
+            <h2 class="sugg-content">intercity</h2>
+             <img src="./images/car.png" alt="">
+             <p>Get comfortable and affordable taxis at your door anytime.</p>
+              <button class="button int"><a href="intercity.html">details</a></button>
+        </div>
+           <div class="scoter child">
+             <h2 class="sugg-content">scoter</h2>
+            <img src="./images/sc2.jpg" alt="">
+            <p>Low-cost shared rides in professional buses and vans.</p>
+            <button class="button sco"><a href="./scotar.html">details</a></button>
+           </div>
+
+           <div class="bus child">
+            <h2 class="sugg-content">bus</h2>
+            <img src="./images/4.jpg" alt="">
+            <p>Enjoy affordable and comfortable shared bus rides with professional drivers for a safe and reliable journey.</p>
+           
+           <button class="button"><a href="bus.html">details</a></button>
+           </div>
+    </div>
+<h2 class="rev">Reviews</h2>
+<div class="reviews">
+<div class="rating">
+  <p>Excellent ride!Friendly driver, clean car, and smooth trip. Very professional!</p>
+  ★ ★ ★ ★ ☆
+  <p> Professional driver, on-time, safe, and comfortable ride. Very satisfied with the service!"</p>
+  ★ ★ ★ ★ ☆
+  <p>"Great trip! The driver was punctual, courteous, and made the ride really comfortable. Felt safe and relaxed the whole way. Would definitely ride again!"</p>
+  ★ ★ ★ ★ ☆
+</div>
+<div class="comment">
+    <textarea rows="10" cols="90">Write a feedback!</textarea>
+</div>
+</div>
+<h2 class="f">FAQ</h2>
+<div class="faq">
+    <div class="q">
+<pre>How is fare calculated?                                                                   <span>+</span></pre>
+<hr>             
+<br>
+<pre>Are drivers verifed?                                                                      <span>+</span></pre>
+<hr>                
+<br>
+<pre>lost an item?                                                                             <span>+</span></pre>
+<hr>
+</div>
+</div>
+
+
+<footer>
+    <div class="social">
+        <div class="support">
+        <h2 class="communication">If you encounter a problem with your order, contact us immediately</h2>
+            <i class="fa-solid fa-phone icon"></i><p class="phone">010012563544</p>
+            <i class="fa-solid fa-envelope icon2"></i><p class="email">dashgo@gmail.com</p>
+        </div>
+
+        <h2 >Social_Media</h2>
+        <div class="socialmedia">
+         <i class="fa-brands fa-facebook facebook"></i>
+         <i class="fa-brands fa-whatsapp whatsapp"></i>
+         <i class="fa-brands fa-linkedin linkedin"></i>
+        </div>
+        <div class="rights">
+            <p> &copy; 2026 DashGo</p>
+        </div>
+    </div>
+</footer>
+    <script src="scrpt.js"></script>
+</body>
+</html>

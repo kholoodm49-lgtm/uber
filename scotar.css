@@ -1,0 +1,54 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+.all-scooter{
+ padding-top: 30px;
+}
+.all-scooter .contain{
+ padding-block: 30px;
+ width: 75%;
+ margin: auto;
+}
+.all-scooter .contain .cards{
+ padding: 30px;
+ border-radius: 10px;
+ border: hashtag#ccccccad solid 1px;
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+ transition: all ease-in-out 0.5s;
+ display: flex;
+ flex-direction: row;
+ margin-block: 30px;
+}
+.all-scooter .contain .cards:hover{
+ transform: translate(10px,10px);
+}
+
+.all-scooter .contain .cards .image{
+ width: 30%;
+}
+.all-scooter .contain .cards img{
+ width: 100%;
+}
+
+.all-scooter .contain .cards h3{
+ text-align: center;
+ margin: 30px;
+ font-size: 30px;
+}
+.all-scooter .contain .cards .para{
+ margin-block: 20px;
+}
+.all-scooter .contain .cards button{
+ padding-block: 12px;
+ padding-inline: 26px;
+ border-radius: 10px;
+ background-color: hashtag#ffae00ee;
+ color: rgba(149, 11, 11, 0.619);
+ font-weight: 800;
+ border:
+ hashtag#ff5100e1 solid 1px;
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+ margin-block: 30px;
+}

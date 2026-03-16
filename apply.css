@@ -1,0 +1,42 @@
+body{
+ background-image: url("./images/car.png");
+ background-repeat:no-repeat ;
+ display: flex;
+ background-size: cover;
+
+}
+.form {
+ background-color: chocolate;
+ justify-content: center;
+ padding: 35px;
+ height:280px;
+ width: 280px;
+ position: absolute;
+ left: 40%;
+ top:30%;
+ border-radius: 20px;
+ 
+}
+.form input{
+ padding: 8px 10px;
+}
+h1{
+ position: absolute;
+ left: 40%;
+ top:15%;
+ font-size: 50px;
+ color: rgba(255, 166, 0, 0.942);
+ text-shadow: 5px 4px blue;
+}
+
+@media screen and (max-width:800px){
+body{
+     background-image: url("./images/car.png");
+ background-repeat:no-repeat ;
+ display: flex;
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+
+}
+}
